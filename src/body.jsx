@@ -18,7 +18,7 @@ const Body = () => {
       );
       const json = await data.json();
       { console.log(json)};
-      setListOfRestraunt(json.record.clothing_item[0])
+      setListOfRestraunt(json.record.clothing_items)
   };
 
   return (
